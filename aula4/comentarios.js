@@ -8,4 +8,4 @@ console.log('Linha 3');
 console.log('Linha 4');
 // Vai se ignorado
 
-console.log('')
+console.log)
