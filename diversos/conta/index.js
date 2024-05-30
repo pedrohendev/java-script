@@ -7,7 +7,7 @@ const cursoEmVideo = 25;
 const credito = 17;
 const tecladoMouseFoneSsd = 80.66;
 const presenteDiaNamorado = 170;
-const cartaoDeCredito = 80.95+7.50+21.64+11.6;
+const cartaoDeCredito = 80.95+24+7.50+21.64+11.6;
 
 const total = faculdade + dizimo + denstista + notebook + cursoEmVideo + credito + tecladoMouseFoneSsd + presenteDiaNamorado + cartaoDeCredito;
 
