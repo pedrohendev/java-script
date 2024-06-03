@@ -5,4 +5,4 @@ num2 = Number(num2);
 
 const resultado = num1 + num2;
 
-alert(`O resulatado foi: ${resultado}`)
+alert(`O resulatado foi: ${resultado}`);
