@@ -1,16 +1,15 @@
-const salario = 1300;
-const faculdade = 285.26;
-const dizimo = 130;
-const denstista = 100;
-const notebook = 334.42;
-const cursoEmVideo = 25;
-const credito = 17;
-const tecladoMouseFoneSsd = 80.66;
-const presenteDiaNamorado = 0;
-const cartaoDeCredito = 46;
-const rematriculaFaculdade = 400;
+let salario = 1300;
+let faculdade = 0;
+let dizimo = 130;
+let denstista = 100;
+let notebook = 334.42;
+let cursoEmVideo = 25;
+let credito = 17;
+let tecladoMouseFoneSsd = 80.66;
+let cartaoDeCredito = 72.15;
+let rematriculaFaculdade = 400;
 
-const total = faculdade + dizimo + denstista + notebook + cursoEmVideo + credito + tecladoMouseFoneSsd + presenteDiaNamorado + cartaoDeCredito;
+let total = faculdade + dizimo + denstista + notebook + cursoEmVideo + credito + tecladoMouseFoneSsd + cartaoDeCredito + rematriculaFaculdade;
 
 console.log(salario - total);
 
