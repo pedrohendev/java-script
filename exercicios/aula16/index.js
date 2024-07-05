@@ -1,4 +1,4 @@
-console.log(100 / 0);
+// console.log(100 / 0);
 
 /*let num1 = 9;
 console.log(num1 ** 0.5);*/
