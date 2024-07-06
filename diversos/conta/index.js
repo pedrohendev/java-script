@@ -6,10 +6,10 @@ let notebook = 334.42;
 let cursoEmVideo = 25;
 let credito = 17;
 let tecladoMouseFoneSsd = 80.66;
-let cartaoDeCredito = 0;
+let cartaoDeCredito = 130;
 let investimento = 50;
 let guardar = 100; 
-let rematriculaFaculdade = 0;
+
 
 let total = faculdade + dizimo + denstista + notebook + cursoEmVideo + credito + tecladoMouseFoneSsd + cartaoDeCredito + rematriculaFaculdade + investimento + guardar;
 
