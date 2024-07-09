@@ -44,7 +44,7 @@ b.pop()
 console.log(a, b)*/
 
 
-/*let a = `A`
+/*= let a `A`
 let b = a // copia
 console.log(a, b)
 
