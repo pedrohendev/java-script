@@ -1,5 +1,6 @@
-function enviar () {
+function meuEscopo() {
     const form = document.querySelector('.form');
+    const resultado = document.querySelector('.resultado');
 
     /*form.onsubmit = function (evento) {
         evento.preventDefault();
@@ -7,15 +8,30 @@ function enviar () {
         console.log(`Foi enviado`);
     };*/
 
-    let contador = 1
-    function recebeEventoForm (evento) {
+    const pessoas = [];
+
+    function recebeEventoForm(evento) {
         evento.preventDefault();
-        console.log(`Form não foi enviado ${1}`)
-        contador++
+
+        const nome = document.querySelector('.nome');
+        const sobrenome = document.querySelector('.sobrenome');
+        const peso = document.querySelector('.peso');
+        const altura = document.querySelector('.altura');
+
+        pessoas.push({
+            nome: nome.value,
+            sobrenome: sobrenome.value,
+            peso: peso.value,
+            altura: altura.value
+        });
+
+        console.log(pessoas);
+
+        resultado.innerHTML += `<p>${nome.value} ${sobrenome} ${peso} ${altura}</p>`;
     }
 
-    form.addEventListener('submit', recebeEventoForm)
+    form.addEventListener('submit', recebeEventoForm);
 
 }
 
-enviar();
+meuEscopo();
