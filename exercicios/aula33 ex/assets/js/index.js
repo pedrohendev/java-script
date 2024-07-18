@@ -5,11 +5,16 @@ const elementos = [
     {tag: `section`, texto: `Frase 4`},
 ];
 
+const container = document.querySelector(`.container`);
+const div = document.createElement(`div`);
 
-function monstra(msg) {
-    msg.addEventListener(elementos[0,1,2,3])
-   
+for (let i = 0; i < elementos.length; i++) {
+    const {tag, texto} = elementos[i]
+    const tagCriada = document.createElement(tag)
+    const textoCriado = document.createTextNode(texto)
+    //tagCriada.innerText = texto;
+    tagCriada.appendChild(textoCriado)
+    div.appendChild(tagCriada);
 }
 
-msg();
-
+container.appendChild(div);
